@@ -8,6 +8,7 @@ import user from "./user.svg";
 import server from "./Server.svg";
 import location from "./location.svg";
 import sub from "./1.jpg"
+import GlobalMap from "./HugeGlobal.svg"
 
 
-export { Logo, feature, home, Premium, Sponsored, tick , user,server,location ,sub };
+export { Logo, feature, home, Premium, Sponsored, tick , user,server,location ,sub, GlobalMap };

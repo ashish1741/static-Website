@@ -97,7 +97,7 @@ function Subscription() {
             </>
           );
         })}
-        <h2 className="font-bold text-center  p-2 text-[30px]" >Free</h2>
+        <h2 className="font-bold text-center mt-16  p-2 text-[30px]" >Free</h2>
         <div className="p-2">
         <Button
           title="Select &#x21fe;"
