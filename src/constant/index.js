@@ -1,6 +1,6 @@
 
 
-import  { tick } from "../assets";
+import  { tick , user , location, server , Premium ,sub} from "../assets";
 
 export const navLinks = [
     {
@@ -54,18 +54,21 @@ export const features = [
 export const FreePlan  = [
     {
         id:"1",
+        image:sub,
         icon: tick,
         title:"Unlimited Bandwitch"
 
     },
     {
         id:"2",
+        image:sub,
         icon: tick,
         title:"Encrypted Connection "
 
     },
     {
         id:"3",
+        image:sub,
         icon: tick,
         title:"No Traffic Logs"
 
@@ -73,37 +76,43 @@ export const FreePlan  = [
     {
         id:"4",
         icon: tick,
+        image:sub,
         title:"Works on All Devices"
 
     },
 ]
 
 
-export const StandardPlan = () =>
+export const StandardPlan = 
 [
     {
         id:"A",
+        image:sub,
         icon: tick,
         title:"Unlimited Bandwitch"
 
     },
     {
         id:"B",
+        image:sub,
         icon: tick,
         title:"Works on All Devices"
     },
     {
         id:"C",
+        image:sub,
         icon: tick,
         title:"Encrypted Connection"
     },
     {
         id:"D",
+        image:sub,
         icon: tick,
         title:"Yes Traffic Logs"
     },
     {
         id:"E",
+        image:sub,
         icon: tick,
         title:"Connect Anyware"
     },
@@ -113,28 +122,28 @@ export const StandardPlan = () =>
 export const PremiumPlan = [
     {
         id:"A",
-        icon: tick,
+        image:sub,
         title:"Unlimited Bandwitch"
 
     },
     {
         id:"B",
-        icon: tick,
+        image:sub,
         title:"Works on All Devices"
     },
     {
         id:"C",
-        icon: tick,
+        image:sub,
         title:"Encrypted Connection"
     },
     {
         id:"D",
-        icon: tick,
+        image:sub,
         title:"Yes Traffic Logs"
     },
     {
         id:"E",
-        icon: tick,
+        image:sub,
         title:"Get New Features"
     },
 ] ;
@@ -231,5 +240,27 @@ export const FooterEarnMoneyLink = [
        title:"Affiliate"
    },
  
+
+]
+
+export const middlePart = [
+    {
+        
+        icon: user,
+        number: "90+",
+        title: "User"
+    },
+    {
+        
+        icon: location,
+        number: "30+",
+        title: "Location"
+    },
+    {
+        
+        icon: server,
+        number: "50+",
+        title: "Server"
+    },
 
 ]

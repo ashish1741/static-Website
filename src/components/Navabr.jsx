@@ -6,7 +6,7 @@ import Button from "./Button";
 function Navabr() {
   return (
     <div className=" text-center flex  justify-between items-center m-5" >
-        <img src={Logo} alt="Logo"  />
+        <img  src={Logo} alt="Logo"  />
       <nav className="p-2 ml-3 mr-3">
         <ul className=" flex justify-evenly">
           {navLinks.map((ele, index) => {
