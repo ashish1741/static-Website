@@ -6,6 +6,7 @@ import Global from './components/Global'
 import Testomonial from './components/Testomonial'
 import Button from './components/Button'
 import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
    <Price />
    <Global />
    <Testomonial />
+   <Contact />
 
 
     </div>

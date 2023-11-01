@@ -21,7 +21,7 @@ function Home() {
           </p>
           <a
             href="#_"
-            class="inline-block py-2 mt-5 text-[20px] text-white bg-[#F53855] px-5 hover:bg-[#c97481] rounded-md"
+            class="inline-block py-2 mt-5 text-[20px] text-white bg-[#f53855] px-5 hover:bg-[#c97481] rounded-md"
           >
             Get Start &#x2192;
           </a>

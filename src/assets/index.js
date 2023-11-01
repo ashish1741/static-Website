@@ -9,6 +9,10 @@ import server from "./Server.svg";
 import location from "./location.svg";
 import sub from "./1.jpg"
 import GlobalMap from "./HugeGlobal.svg"
+import Ellipse1 from "./Ellipse1.svg"
+import Ellipse2 from "./Ellipse2.svg"
+import Ellipse3 from "./Ellipse2.svg"
+import Star from "./Group.png"
 
 
-export { Logo, feature, home, Premium, Sponsored, tick , user,server,location ,sub, GlobalMap };
+export { Logo, feature, home, Premium, Sponsored, tick , user,server,location ,sub, GlobalMap, Ellipse1,Ellipse2,Ellipse3,Star };

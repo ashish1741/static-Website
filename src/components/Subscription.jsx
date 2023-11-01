@@ -4,7 +4,7 @@ import { Premium } from "../assets";
 import Button from "./Button";
 function Subscription() {
   return (
-    <div className="conatiner m-2 flex p-3  justify-evenly md:flex-row-reverse ">
+    <div className="conatiner m-2 flex p-28  justify-evenly md:flex-row-reverse ">
       <div className=" border hover:border-[#F53855] bg-[#F53855] border-slate-300 text-center  rounded w-[30%]">
         <div className="m-auto text-center">
           <img

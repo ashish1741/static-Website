@@ -2,7 +2,10 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className="relative top-[150px]">
+      
+
+    </div>
   )
 }
 

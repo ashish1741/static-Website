@@ -1,6 +1,6 @@
 
 
-import  { tick , user , location, server , Premium ,sub} from "../assets";
+import  { tick , user , location, server , Premium ,sub,Ellipse1,Ellipse2,Ellipse3, Star} from "../assets";
 
 export const navLinks = [
     {
@@ -151,32 +151,34 @@ export const PremiumPlan = [
 export const review = [
     {
         id:"vuezh",
+        image: Ellipse1,
         name:"Viezh Robert",
         address: "Warsaw, Poland",
         rating:4.5,
+        icon:Star,
         message:"“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”."
     },
     {
         id:"Yessica",
+        image: Ellipse3,
         name:"Yessica Christy",
         address: "Shanxi, China",
         rating:4.5,
+        icon:Star,
         message:"“I like it because I like to travel far and still can connect with high speed.”"
     },
     {
         id:"Kim",
+        image: Ellipse1,
         name:"Kim Young Jou",
         address: "Seoul, South Korea",
         rating:4.5,
+        icon:Star,
         message:"“This is very unusual for my business that currently requires a virtual private network that has high security.”"
     }
-    ,{
-        id:"Mars",
-        name:"Mars Robert",
-        address: "London ,UK",
-        rating:5,
-        message:"“ it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”."
-    }
+  
+   
+
 ];
 
 export const FooterProductLink = [
