@@ -1,6 +1,6 @@
 
 
-import  { tick , user , location, server , Premium ,sub,Ellipse1,Ellipse2,Ellipse3, Star} from "../assets";
+import  { tick , user , location, server , Premium ,sub,Ellipse1,Ellipse,Ellipse2,Ellipse3, Star} from "../assets";
 
 export const navLinks = [
     {
@@ -169,7 +169,7 @@ export const review = [
     },
     {
         id:"Kim",
-        image: Ellipse1,
+        image: Ellipse,
         name:"Kim Young Jou",
         address: "Seoul, South Korea",
         rating:4.5,

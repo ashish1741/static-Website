@@ -13,7 +13,7 @@ const Testimonial = () => {
   };
   return (
     <div className="relative top-[30px] m-2 p-2">
-      <div className="mt-3 p-3 text-center">
+      <div className="mt-3 mb-4 p-3 text-center">
         <h1 className='text-[#0B132A] p-4 font-[500] text-[35px]'>Trusted by Thousands of <br /> Happy Customer</h1>
         <p className='text-[#4F5665] font-normal text-[16px] leading-2'>These are the stories of our customers who have joined us with great <br /> pleasure when using this crazy feature.</p>
       </div>
@@ -41,7 +41,13 @@ const Testimonial = () => {
         ))}
       </div>
       {/* ---------------- slider */}
-      <div className="flex justify-end ">
+      <div className="flex ml-10 mt-2 gap-0">
+        {review.map((ele,index)=>{
+          return <span key={index} className={`w-2 m-2 h-2 rounded  ${index === activeCardIndex  ?  ' bg-[#F35855] w-4' : 'bg-slate-600'} `}></span>
+        })}
+
+      </div>
+      <div className="flex justify-end mr-10 ">
   <button className=" border border-[#F53855] rounded-full p-2 focus:outline-none transition-colors duration-300 ease-in-out text-[#F53855] hover:bg-[#F53855] hover:text-white active:bg-[#F53855]" onClick={moveLeft}  >
     <svg
       xmlns="http://www.w3.org/2000/svg"
